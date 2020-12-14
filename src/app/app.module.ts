@@ -15,8 +15,8 @@ import { AuthGuard } from './shared';
   imports: [
     BrowserModule,
 	BrowserAnimationsModule,
-	AppRoutingModule,
 	HttpModule,
+	AppRoutingModule,
   ],
   providers: [AuthGuard],
   bootstrap: [AppComponent]
